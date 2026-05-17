@@ -53,13 +53,14 @@
 
   <!-- Header -->
   <div id="header">
+    <button id="mobileHeaderToggle" onclick="toggleMobileSidebar()" title="Menu">☰</button>
     <div class="breadcrumb" id="breadcrumb">
       <span class="bc-item" onclick="loadPage('home')">🏠 Accueil</span>
     </div>
     <div class="header-actions">
       <button class="hbtn" onclick="toggleFav()" id="favBtn" title="Ajouter aux favoris">☆ Favori</button>
-      <button class="hbtn" onclick="openSearch()">🔍</button>
-      <button class="hbtn" onclick="openRightPanel()" title="Info page">ℹ️</button>
+      <button class="hbtn hbtn-icon" onclick="openSearch()" title="Rechercher">🔍</button>
+      <button class="hbtn hbtn-icon" onclick="openRightPanel()" title="Info page">ℹ️</button>
       <button class="hbtn" onclick="shareDoc()">↗ Partager</button>
       <button class="hbtn primary" onclick="saveDoc()">💾 Sauvegarder</button>
     </div>
